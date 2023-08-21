@@ -19,9 +19,7 @@ def RGB(event, x, y, flags, param):
 
 cv2.namedWindow('RGB')
 cv2.setMouseCallback('RGB', RGB)
-cy1=336
-offset=6
-tracker1=Tracker()
+
 while True:
     ret,frame=cap.read()
     if not ret:
