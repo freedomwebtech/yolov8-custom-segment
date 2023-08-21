@@ -2,7 +2,7 @@ import cv2
 from yolo_segmentation import YOLOSEG
 import cvzone
 from tracker import*
-ys = YOLOSEG("best.pt")
+ys = YOLOSEG("yolov8s-seg.pt")
 
 my_file = open("coco.txt", "r")
 data = my_file.read()
