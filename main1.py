@@ -4,7 +4,7 @@ import cvzone
 from tracker import*
 ys = YOLOSEG("best.pt")
 
-my_file = open("coco1.txt", "r")
+my_file = open("coco.txt", "r")
 data = my_file.read()
 class_list = data.split("\n")
 
