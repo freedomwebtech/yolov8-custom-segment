@@ -14,7 +14,7 @@ while cpt < maxFrames:
     time.sleep(0.01)
 #    frame=cv2.flip(frame,1)
     cv2.imshow("test window", frame) # show image in window
-    cv2.imwrite(r"C:\Users\freed\Downloads\yolov8seg-main\yolov8seg-main\images\insect-killer_%d.jpg" %cpt, frame)
+    cv2.imwrite(r"C:\Users\freed\Downloads\yolov8seg-main\yolov8seg-main\images\name_%d.jpg" %cpt, frame)
     cpt += 1
     if cv2.waitKey(5)&0xFF==27:
         break
